@@ -1,0 +1,109 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1e5d4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  margin-top: 1rem;
+  width: 500px;
+  background-color: #fadeb8;
+}
+
+.game-details {
+  display: flex;
+}
+
+.game-title {
+  font-size: 5rem;
+  color: #686262;
+  font-weight: bold;
+}
+
+.score-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 40%;
+  background-color: #8d8b8b;
+  color: white;
+  padding: 0.6rem 1rem;
+  font-weight: 500;
+}
+
+.score-title {
+  text-transform: uppercase;
+}
+
+.score {
+  margin: 0 auto;
+}
+
+.new-game-container {
+  margin-top: 1rem;
+  color: #686262;
+  display: flex;
+  font-family: "Roboto Slab", serif;
+}
+
+.new-game {
+  margin-left: 4rem;
+  margin-bottom: 0.5rem;
+  padding: 0.7rem;
+  text-transform: capitalize;
+  color: white;
+  background-color: #636262;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+
+.game-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: 2rem auto;
+}
+
+.game-grid div {
+  width: 100px;
+  height: 100px;
+  background-color: #979696dc;
+  border: 4px #636262 solid;
+  color: #383838e3;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 5rem;
+}
+
+.game-over-container {
+  position: absolute;
+  top: 33.5%;
+  left: 35.3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  background-color: #e4e1e1af;
+  display: none;
+}
+
+.game-over-text {
+  position: absolute;
+  font-size: 3rem;
+  color: #636262;
+  font-weight: bold;
+}
